@@ -1,0 +1,252 @@
+.investigator-projects {
+  padding: 24px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 60px);
+}
+
+.investigator-projects__header {
+  max-width: 1200px;
+  margin: 0 auto 32px;
+}
+
+.investigator-projects__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+
+.investigator-projects__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.investigator-projects__add-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 38px;
+  white-space: nowrap;
+}
+
+.investigator-projects__add-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+}
+
+.investigator-projects__add-icon {
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .investigator-projects {
+    padding: 16px;
+  }
+
+  .investigator-projects__toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .investigator-projects__add-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Grid container */
+.investigator-projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card styles */
+.investigator-projects__card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.investigator-projects__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.investigator-projects__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.investigator-projects__card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Status badges */
+.investigator-projects__status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.investigator-projects__status--planned {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.investigator-projects__status--in-progress {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.investigator-projects__status--completed {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* Description */
+.investigator-projects__description {
+  color: #5c6b7c;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+/* Info items */
+.investigator-projects__info {
+  margin-bottom: 1.5rem;
+}
+
+.investigator-projects__info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.investigator-projects__icon {
+  color: #4caf50;
+  font-size: 1rem;
+}
+
+.investigator-projects__text {
+  color: #2c3e50;
+}
+
+/* Action buttons */
+.investigator-projects__actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.investigator-projects__button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.investigator-projects__button--view {
+  background-color: #2196f3;
+  color: white;
+}
+
+.investigator-projects__button--view:hover {
+  background-color: #1976d2;
+}
+
+.investigator-projects__button--edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.investigator-projects__button--edit:hover {
+  background-color: #45a049;
+}
+
+.investigator-projects__button--delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.investigator-projects__button--delete:hover {
+  background-color: #e53935;
+}
+
+/* Pagination */
+.investigator-projects__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .investigator-projects {
+    padding: 1rem;
+  }
+
+  .investigator-projects__controls {
+    flex-direction: column;
+  }
+
+  .investigator-projects__search {
+    max-width: 100%;
+  }
+
+  .investigator-projects__actions {
+    flex-direction: column;
+  }
+
+  .investigator-projects__button {
+    width: 100%;
+  }
+}
+
+/* Loading state */
+.investigator-projects__loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Empty state */
+.investigator-projects__empty {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+  font-size: 1.1rem;
+}

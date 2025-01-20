@@ -1,0 +1,56 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-tabs .nav-link {
+  color: #495057;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  margin-right: 5px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.no-data-message {
+  text-align: center;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.btn-primary, .btn-danger {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.badge {
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}

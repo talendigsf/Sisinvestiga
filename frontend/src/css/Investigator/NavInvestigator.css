@@ -1,0 +1,250 @@
+.nav-investigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
+}
+
+.nav-investigator-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-investigator-logo-img {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.home-page .nav-investigator-logo-img {
+  width: 120px;
+  height: auto;
+}
+
+.nav-investigator-university-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #006400;
+}
+
+.nav-investigator-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-investigator-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-investigator-menu-item:hover {
+  color: #006400;
+}
+
+.nav-investigator-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-investigator-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #006400;
+  position: relative;
+}
+
+.nav-investigator-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.nav-investigator-back-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.nav-investigator-user-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #006400;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.nav-investigator-user-btn:hover {
+  background-color: #005000;
+}
+
+.nav-investigator-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  z-index: 10;
+}
+
+.nav-investigator-dropdown li {
+  padding: 0;
+}
+
+.nav-investigator-dropdown-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nav-investigator-dropdown-link:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-investigator-mobile-toggle {
+  display: none;
+}
+
+.nav-investigator-notifications {
+  position: relative;
+}
+
+.view-all-notifications {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  background-color: #006400;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.view-all-notifications:hover {
+  background-color: #005000;
+  color: white;
+}
+
+.view-all-notifications svg {
+  margin-right: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-investigator {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .nav-investigator-logo {
+    flex-grow: 1;
+  }
+
+  .nav-investigator-university-name {
+    font-size: 0.9rem;
+  }
+
+  .nav-investigator-notifications {
+    width: 100%;
+  }
+
+  .nav-investigator-mobile-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #006400;
+    cursor: pointer;
+  }
+
+  .nav-investigator-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .nav-investigator-menu.open {
+    display: flex;
+  }
+
+  .nav-investigator-actions {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .nav-investigator-actions.open {
+    display: flex;
+  }
+
+  .nav-investigator-user-menu {
+    width: 100%;
+  }
+
+  .nav-investigator-user-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-investigator-dropdown {
+    position: static;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .nav-investigator-back-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .notifications-dropdown {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-height: calc(100vh - 60px);
+  }
+}

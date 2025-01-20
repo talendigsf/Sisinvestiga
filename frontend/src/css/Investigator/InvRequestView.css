@@ -1,0 +1,36 @@
+.badge {
+  font-size: 0.8em;
+  padding: 0.35em 0.65em;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.titulo-solicitud{
+  color: #3f7748 !important;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.9em;
+  }
+}

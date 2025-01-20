@@ -1,0 +1,399 @@
+[{
+  "_id": {
+    "$oid": "66d7d4bca6f6b3707d261b33"
+  },
+  "nombre": "Carlos Alberto",
+  "apellido": "Castillo Garcia",
+  "email": "castillox671@gmail.com",
+  "password": "$2a$08$SxNriPhf6KAwMDYdIPhDLePFyJjtfDjo6qN4/mcv8YUod1J8Xqi.i",
+  "especializacion": "Desarrollador de Sistemas",
+  "responsabilidades": [
+    "Desarrollador Backend",
+    "CoLider de Proyectos"
+  ],
+  "role": {
+    "$oid": "66d86b15c58859de09db964a"
+  },
+  "createdAt": {
+    "$date": "2024-09-04T03:32:12.107Z"
+  },
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ3ZDRiY2E2ZjZiMzcwN2QyNjFiMzMiLCJpYXQiOjE3MzIwNTkwNTYsImV4cCI6MTczMjE0NTQ1Nn0.6NTQ91u3THQ8vLxwm-3PK_FT6P2ss6Y_Cuc5leHoxss",
+      "_id": {
+        "$oid": "673d1fb0f5c33c3844d93854"
+      }
+    }
+  ],
+  "__v": 257,
+  "proyectos": [],
+  "isDisabled": false,
+  "updatedAt": {
+    "$date": "2024-11-19T23:57:34.050Z"
+  },
+  "isVerified": true,
+  "fotoPerfil": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/profile%2Fabd6225a-8a1b-4110-921c-b61707d5f6f0-41.jpeg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66d9a3d28811e44aea8b1dd6"
+  },
+  "nombre": "Carlos Alberto",
+  "apellido": "Castillo Garcia",
+  "email": "castilloz671@gmail.com",
+  "password": "$2a$08$QOLzy0RZSpe65ncem47E1u/ylAyq9lWIJn1weniVLrQH3epR9Z872",
+  "especializacion": "Ingenieria Quimica",
+  "responsabilidades": [
+    "Desarrollador de Materiales",
+    "Probar Productos",
+    "Crear Formúlas."
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "createdAt": {
+    "$date": "2024-09-05T12:28:02.312Z"
+  },
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDkwODcsImV4cCI6MTczMDMzNTQ4N30.C2EyZPJtTPYyOncxZiweP_6q5p-PSe_WPqBHcJmecnE",
+      "_id": {
+        "$oid": "6721817facee6bdde1b2909a"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDkyNDQsImV4cCI6MTczMDMzNTY0NH0.bPNibf-GE2SioNQfll_yeFSMicaj1iAR7o4CpDHQEKo",
+      "_id": {
+        "$oid": "6721821cb34bff098ced7165"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDkzNzYsImV4cCI6MTczMDMzNTc3Nn0.U4pjj2xBUa7dMZekhR5GWkcdMp3A01qbTZj9pnKxnwM",
+      "_id": {
+        "$oid": "672182a0b34bff098ced716f"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDkzOTgsImV4cCI6MTczMDMzNTc5OH0.20ph-J2LUvaiKKM2ndDLGVV23QVUSaWA1E-_5pCFYn4",
+      "_id": {
+        "$oid": "672182b6b34bff098ced717a"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDk0MjMsImV4cCI6MTczMDMzNTgyM30.tE5gWAkZLdWneqm8CnSBdR5D-gr51fZhVQweCf85kOs",
+      "_id": {
+        "$oid": "672182cfb5d4bc96424eb26b"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNDk2MDAsImV4cCI6MTczMDMzNjAwMH0.GWi46740AvRzSdaCxBJGyOo5tAJIRBD9yTLrLdONvrE",
+      "_id": {
+        "$oid": "672183808e98cd7b0aaec105"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTgwMTQsImV4cCI6MTczMDM0NDQxNH0.VgVAuIByN9RQauBBi4JF_OLhVYR38wyv2wGzMoNyxEE",
+      "_id": {
+        "$oid": "6721a45ea8072fbc01985083"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTgxNzksImV4cCI6MTczMDM0NDU3OX0.PD5hxArkwBR9sbx35yaL7eh8Cqc8algTSPWRl6fmUJE",
+      "_id": {
+        "$oid": "6721a503fa5c9739ff32bf55"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTgzNTUsImV4cCI6MTczMDM0NDc1NX0.mY80Hih2IhkGRLBUrDjMkv86Wlx7cUrGrO7_6uixK38",
+      "_id": {
+        "$oid": "6721a5b37bd4ced50ed45252"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTgzODcsImV4cCI6MTczMDM0NDc4N30.AUvKR0QNBpfdp9RsmE5DJF_QUoE7zz1D7mwlRHz6GWE",
+      "_id": {
+        "$oid": "6721a5d3e2e0282f42c774f0"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTgzOTEsImV4cCI6MTczMDM0NDc5MX0.BncX216e9xs6MK-29ZZbVKobJWhZmwf_MrM0AywI73s",
+      "_id": {
+        "$oid": "6721a5d7e2e0282f42c77502"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTg0MDgsImV4cCI6MTczMDM0NDgwOH0.ndIMv0zbWrr7I9nnlEIBPLqA-qnlFESwSogvnYevodg",
+      "_id": {
+        "$oid": "6721a5e8e2e0282f42c77515"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTg0MzMsImV4cCI6MTczMDM0NDgzM30.Bm1P5ycN1jKJdwCjlVj6a1KDPbMySPTC73_lWEpCgvw",
+      "_id": {
+        "$oid": "6721a60141d65c0f5942b9c1"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzAyNTg1NzEsImV4cCI6MTczMDM0NDk3MX0.cRVbye9CLnjiKtEosbSyLdy1MKz_1n8uxfuIkV7B5jc",
+      "_id": {
+        "$oid": "6721a68b17e1279198191674"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YTNkMjg4MTFlNDRhZWE4YjFkZDYiLCJpYXQiOjE3MzIwNTkzNzQsImV4cCI6MTczMjE0NTc3NH0.YeKH15AGlMOfCxu9JnAk52W6lAu-Y2G32X4q8kQ-rP8",
+      "_id": {
+        "$oid": "673d20eed4871da19ea34197"
+      }
+    }
+  ],
+  "__v": 185,
+  "isDisabled": false,
+  "updatedAt": {
+    "$date": "2024-11-19T23:53:35.578Z"
+  },
+  "fotoPerfil": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/profile%2F7ce8c0b0-3f87-4187-a9fc-830ab0f57644-5.jpeg?alt=media",
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "66db13d669069f5a5b76ff44"
+  },
+  "nombre": "Cesar Alejandro",
+  "apellido": "Robles Matos",
+  "email": "moquetez671@gmail.com",
+  "password": "$2a$08$oougywW7OSzuqVSdBErhM.X8l4uQeJI2LemrUGGx60MIRw0lEWDYu",
+  "especializacion": "Ingeniero de Software",
+  "responsabilidades": [
+    "Desarrollar de APIs",
+    "Probar EndPoints"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "createdAt": {
+    "$date": "2024-09-06T14:38:14.221Z"
+  },
+  "tokens": [],
+  "__v": 8,
+  "isDisabled": false,
+  "updatedAt": {
+    "$date": "2024-10-29T02:03:22.696Z"
+  },
+  "isVerified": true,
+  "fotoPerfil": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/profile%2F3d172750-6535-43fc-bd51-069216add089-9.jpeg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66e8c2ca50682593adb5d0bb"
+  },
+  "nombre": "Engel",
+  "apellido": "Douglas",
+  "email": "engeldg@gmail.com",
+  "password": "$2a$08$2a2WmyBlORyJfOSxpQNXBeCzXsXv.4TalrnrZ2nZ.gw11d2jI5z8C",
+  "especializacion": "Ingeniero de Software",
+  "responsabilidades": [
+    "Desarrollar de APIs",
+    "Probar EndPoints"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "createdAt": {
+    "$date": "2024-09-16T23:44:10.417Z"
+  },
+  "tokens": [],
+  "__v": 89,
+  "isDisabled": false,
+  "updatedAt": {
+    "$date": "2024-10-21T00:39:58.263Z"
+  },
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "66f9cafd2e0c839a01c64791"
+  },
+  "nombre": "Silvia Maria",
+  "apellido": "Garcia Alexander",
+  "email": "silvia@gmail.com",
+  "password": "$2a$08$HONLuwQhI9ESz.oLcDJA3uYqTd00RYGY6/ky3uQvjOwK8r2lCEBxy",
+  "especializacion": "Contable",
+  "responsabilidades": [
+    "Hello"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2024-09-29T21:47:41.041Z"
+  },
+  "tokens": [],
+  "__v": 5,
+  "updatedAt": {
+    "$date": "2024-11-10T14:17:00.324Z"
+  },
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "66fb47601289da2b27ac618f"
+  },
+  "nombre": "Carlos",
+  "apellido": "Sánchez",
+  "email": "carlos.sanchez@gmail.com",
+  "password": "$2a$08$h06nIaMS.Czrsc1wUGhQf.HaxbT4faqt.kHJEC4gfsrVuckwbyk76",
+  "especializacion": "Ingeniería de Software",
+  "responsabilidades": [
+    "Desarrollo de proyectos",
+    "Investigación"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "fotoPerfil": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/profile%2Fa7595fb9-3cd6-432a-9966-d518d1201782-12.jpeg?alt=media",
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-01T00:50:40.896Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T01:16:38.591Z"
+  },
+  "__v": 6,
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "670176bd89d0720ebc333d00"
+  },
+  "nombre": "Smailin",
+  "apellido": "Espinal",
+  "email": "noemi@gmail.com",
+  "password": "$2a$08$rTiFuGGUlVtJSB9KVNxAmu8njThTj9N0f/Sss4upMk/5ByOam1xBC",
+  "especializacion": "Ingeniero de Software",
+  "responsabilidades": [
+    "Desarrollo de proyectos",
+    "Investigación"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "fotoPerfil": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/profile%2F4fbf1609-5046-4b81-ad09-70dd35415e75-7.jpeg?alt=media",
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-05T17:26:21.060Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-10T14:44:42.272Z"
+  },
+  "__v": 8,
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "6701b68ce179d82e4ca5f6a0"
+  },
+  "nombre": "Smailin Noemi",
+  "apellido": "Espinal Garcia",
+  "email": "smailin@gmail.com",
+  "password": "$2a$08$VLDz5UKL.eKK80XYKPOfFeXbyORy/YiLE2laMCVjNUTZflKVH1hqq",
+  "especializacion": "Doctora",
+  "responsabilidades": [
+    "Cirujana",
+    "Anestesióloga"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-05T21:58:36.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T01:01:14.360Z"
+  },
+  "__v": 11,
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "670b21c6f7227ef50ba9f153"
+  },
+  "nombre": "Silvia Maria",
+  "apellido": "Garcia Alexander",
+  "email": "silviaysbel83@hotmail.com",
+  "password": "$2a$08$ciV/hBNAWWjHBbidwu/iWuhwh5pQAIC4wbiPGVuGaguzL2ll4bxnG",
+  "especializacion": "Contadora",
+  "responsabilidades": [
+    "Crear ISR",
+    "Registrar Formulario 606"
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-13T01:26:30.132Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T01:17:30.063Z"
+  },
+  "__v": 0,
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "670de6ba3565f05a2957ad71"
+  },
+  "nombre": "Alejandro",
+  "apellido": "Montero",
+  "email": "castillogarcia.gtl@gmail.com",
+  "password": "$2a$08$9H7u.h2wq1LdGYEu.jyNpuen7gECY3JywGmeiSQCBdGG4d7T9VuhS",
+  "especializacion": "Ingenierio En Sistemas",
+  "responsabilidades": [
+    "Desarrollador de Software."
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "isVerified": true,
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-15T03:51:22.136Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T22:46:22.617Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "672048463f989692ff5c7a82"
+  },
+  "nombre": "Omar",
+  "apellido": "Fernandez",
+  "email": "carlos.gtl@hotmail.es",
+  "password": "$2a$08$BnYrJsjzLmo5f7Y8jd.D8eAGk.uyNkob.FuMK8s2OfdrTnXTviXnS",
+  "especializacion": "Matematico",
+  "responsabilidades": [
+    "Creacion de Formulas."
+  ],
+  "role": {
+    "$oid": "66d77649d458301a4aba678c"
+  },
+  "isDisabled": false,
+  "isVerified": true,
+  "tokens": [],
+  "createdAt": {
+    "$date": "2024-10-29T02:28:22.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T02:30:45.451Z"
+  },
+  "__v": 4
+}]

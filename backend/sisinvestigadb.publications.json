@@ -1,0 +1,504 @@
+[{
+  "_id": {
+    "$oid": "66d9f71976c4141cb4812abe"
+  },
+  "titulo": "SISINVESTIGA",
+  "fecha": {
+    "$date": "2024-09-04T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d7d4bca6f6b3707d261b33"
+    }
+  ],
+  "revista": "Revista Académica de Investigación",
+  "resumen": "Estamos probando la API para ver su funcionalidad.",
+  "palabrasClave": [
+    "Investigación, Ciencia, Universidad"
+  ],
+  "tipoPublicacion": "Articulo",
+  "estado": "Borrador",
+  "anexos": [
+    {
+      "nombre": "Sissadasd.pdf",
+      "url": "https://kdjfbgkjdsfbkjds.com",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673bf1638e17e956ce7824f4"
+      }
+    },
+    {
+      "nombre": "Frutoterapia-los-frutos.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F4a374f90-1024-455e-b9c8-36ee6b1dd9d5-Frutoterapia-los-frutos.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673bf195d783bea9df031421"
+      }
+    }
+  ],
+  "idioma": "[object Object]",
+  "createdAt": {
+    "$date": "2024-09-05T18:23:21.340Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T02:01:57.544Z"
+  },
+  "__v": 3,
+  "isDeleted": false,
+  "proyecto": {
+    "$oid": "66d9f71976c4141cb4812abe"
+  }
+},
+{
+  "_id": {
+    "$oid": "66db1877732c34e9ba1c67c3"
+  },
+  "titulo": "Prueba de Delete",
+  "fecha": {
+    "$date": "2024-09-06T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "revista": "Revista Académica de APIs",
+  "resumen": "Estamos probando la API para ver su funcionalidad.",
+  "palabrasClave": [
+    "Software",
+    "Sistemas",
+    "Talendig"
+  ],
+  "tipoPublicacion": "Articulo",
+  "estado": "Borrador",
+  "anexos": [
+    {
+      "nombre": "SisInvestiga (1).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F71285721-bf2d-4c50-bf64-3a327401994b-SisInvestiga%20(1).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "670c633ae7bf2e5aa141882c"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "createdAt": {
+    "$date": "2024-09-06T14:57:59.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T15:41:46.524Z"
+  },
+  "__v": 3,
+  "isDeleted": false,
+  "proyecto": {
+    "$oid": "66d9f71976c4141cb4812abe"
+  },
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2F2c37a61e-0e23-4a55-a554-2fdf3ab7e3e4-delete-file.avif?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66db19d7ac4e6e65b64c921d"
+  },
+  "titulo": "Prueba de Delete 2",
+  "fecha": {
+    "$date": "2024-09-06T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "revista": "Revista Académica de APIs.",
+  "resumen": "Estamos probando la API para ver su funcionalidad..",
+  "palabrasClave": [
+    "Software",
+    "Sistemas",
+    "Talendig"
+  ],
+  "tipoPublicacion": "Informe",
+  "estado": "Borrador",
+  "anexos": [
+    {
+      "nombre": "projects_report.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F24282f09-0991-435a-9070-ba434cbe2d99-projects_report.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "67203aab4e159705f661549e"
+      }
+    },
+    {
+      "nombre": "Frutoterapia-los-frutos.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2Fca3ca579-0ab9-44b3-8807-799272b63923-Frutoterapia-los-frutos.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673a6a041569fc8764d86939"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "createdAt": {
+    "$date": "2024-09-06T15:03:51.604Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T01:40:33.953Z"
+  },
+  "__v": 4,
+  "isDeleted": false,
+  "proyecto": {
+    "$oid": "66db19d7ac4e6e65b64c921d"
+  },
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2Ff9ac2572-9b78-40d9-be1e-7f5c5c844f3a-deletes.jpg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66e59c936ccc55df8408d5f3"
+  },
+  "titulo": "Prueba De Proyecto",
+  "fecha": {
+    "$date": "2024-09-16T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66db13d669069f5a5b76ff44"
+    },
+    {
+      "$oid": "670176bd89d0720ebc333d00"
+    }
+  ],
+  "proyecto": [
+    {
+      "$oid": "66db19d7ac4e6e65b64c921d"
+    }
+  ],
+  "revista": "Revista Académica de APIs",
+  "resumen": "Estamos probando la API para ver su funcionalidad.",
+  "palabrasClave": [
+    "Software",
+    "Sistemas",
+    "Talendig",
+    "Pruebas."
+  ],
+  "tipoPublicacion": "Informe",
+  "estado": "Publicado",
+  "anexos": [
+    {
+      "nombre": "SisInvestiga (1).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F7262d852-335e-4b70-8d11-75b3897653d6-SisInvestiga%20(1).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673a60397fe12d7c289e11de"
+      }
+    },
+    {
+      "nombre": "Frutoterapia-los-frutos.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2Faa30db43-1808-4980-9679-9f71a28756bd-Frutoterapia-los-frutos.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673beb5c4af9880fcc8b8183"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "createdAt": {
+    "$date": "2024-09-14T14:24:19.137Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T01:36:33.498Z"
+  },
+  "__v": 7,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "66fcdc40a8e8a1295a1531a3"
+  },
+  "titulo": "Nuevas Tendencias en IA Siglo XXI",
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "proyecto": {
+    "$oid": "66fcdc26a8e8a1295a153194"
+  },
+  "revista": "Revista Internacional de IA",
+  "resumen": "Esta publicación analiza las últimas tendencias en machine learning.",
+  "palabrasClave": [
+    "Machine Learning",
+    "Inteligencia Artificial",
+    "IA"
+  ],
+  "tipoPublicacion": "Articulo",
+  "estado": "Publicado",
+  "anexos": [
+    {
+      "nombre": "SISINVESTIGA (1) (1).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F34ba2e67-037e-4de4-a50e-32814b654cbc-SISINVESTIGA%20(1)%20(1).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "670c5e3ae7203a8846c55a58"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-02T05:38:08.749Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T01:18:13.582Z"
+  },
+  "__v": 1,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2Fe743be66-8e3a-4588-878c-465b4533c1f2-IAXXI.jpg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "67019684836f5ab9169c48da"
+  },
+  "titulo": "Modularizacion de Proyectos",
+  "fecha": {
+    "$date": "2024-10-01T00:00:00.000Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d7d4bca6f6b3707d261b33"
+    }
+  ],
+  "proyecto": {
+    "$oid": "67018428a540d912a0fd537e"
+  },
+  "revista": "Revista Internacional de Programacion",
+  "resumen": "Actualización: Se agregaron nuevas secciones a modularizar....",
+  "palabrasClave": [
+    "Parametrizacion"
+  ],
+  "tipoPublicacion": "Articulo",
+  "estado": "Revisado",
+  "anexos": [
+    {
+      "nombre": "prbanc.pdf",
+      "url": "https://dsnmbfvhjdsbfdjsh.com",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673bf1f78e17e956ce7824f5"
+      }
+    },
+    {
+      "nombre": "projects_report (2).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F579d46ab-3475-4ac4-8dd4-e6adfcf4e099-projects_report%20(2).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673bf20bd783bea9df0315b5"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-05T19:41:56.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T02:03:55.164Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6709c6d837a662b8207547f0"
+  },
+  "titulo": "La ira un mal en el mundo.",
+  "fecha": {
+    "$date": "2024-10-12T00:45:38.121Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "proyecto": {
+    "$oid": "6709bbdf1c400205daed34be"
+  },
+  "revista": "Ira en Republica Dominicana.",
+  "resumen": "Formas de como tratar nuestra ira y como no dejarnos controlar por ella en cualquier momento.",
+  "palabrasClave": [
+    "Ira",
+    "Inteligencia Emocional",
+    "RD",
+    "Gobierno",
+    "Psicologia."
+  ],
+  "tipoPublicacion": "Tesis",
+  "estado": "Borrador",
+  "anexos": [
+    {
+      "nombre": "SisInvestiga (1).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F994493dd-4ad6-4715-bab4-4f3ac4360f0a-SisInvestiga%20(1).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "670c5f46a7dea1eff9669231"
+      }
+    },
+    {
+      "nombre": "Frutoterapia-los-frutos.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F0f7bbdbe-9fa3-48b4-8b6d-8c5201095f94-Frutoterapia-los-frutos.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "673befe9d783bea9df030f2d"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-12T00:46:16.234Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T01:54:49.967Z"
+  },
+  "__v": 3,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2F92d4a615-e96c-480a-b458-3191e6761215-la%20ira.jpg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "670c56e17f2af20d56aef453"
+  },
+  "titulo": "Haciendo Niños Felices",
+  "fecha": {
+    "$date": "2024-10-13T23:24:32.594Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "proyecto": {
+    "$oid": "670c41ed711133584a5b9b5d"
+  },
+  "revista": "Revista Infantil RD.",
+  "resumen": "Proyecto que abarca las actividades y juego con los niños de los barrios de RD.",
+  "palabrasClave": [
+    "Niños",
+    "Juegos",
+    "Sonrisas."
+  ],
+  "tipoPublicacion": "Presentacion",
+  "estado": "Borrador",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2Fbc8cd9f6-2571-4083-bc11-4685fdee2918-children.jpg?alt=media",
+  "anexos": [
+    {
+      "nombre": "SisInvestiga (2).pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F67c2e0c3-f7c4-4f84-b83f-2a7502017e40-SisInvestiga%20(2).pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "670c56e17f2af20d56aef454"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-13T23:25:21.433Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T01:37:14.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671e60d315961f43367a8f53"
+  },
+  "titulo": "Frutas para una Salud Equilibrada.",
+  "fecha": {
+    "$date": "2024-10-27T15:47:05.874Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "proyecto": {
+    "$oid": "671daf1885815d1382c65e01"
+  },
+  "revista": "Revista de Nutricion",
+  "resumen": "Nuestra intervencion es para enseñarles a los jovenes los beneficios que puede traer estos alimentos para las salud y el bienestar del cuerpo.",
+  "palabrasClave": [
+    "Salud",
+    "Nutricion",
+    "Alimentacion"
+  ],
+  "tipoPublicacion": "Articulo",
+  "estado": "Borrador",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2F43107b53-d631-4e40-bbbc-569c53ca3b3c-frutas.jpg?alt=media",
+  "anexos": [
+    {
+      "nombre": "Frutoterapia-los-frutos.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F1414ca38-369a-491c-99e7-a49e636399c4-Frutoterapia-los-frutos.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "671e60d315961f43367a8f54"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-27T15:48:35.157Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-17T21:04:12.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671ebf4e0d80574a489f7ec2"
+  },
+  "titulo": "Notificaciones en un proyecto Web",
+  "fecha": {
+    "$date": "2024-10-27T22:29:17.297Z"
+  },
+  "autores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    },
+    {
+      "$oid": "66e8c2ca50682593adb5d0bb"
+    }
+  ],
+  "proyecto": {
+    "$oid": "671eb52f46d0b71110f71928"
+  },
+  "revista": "Revista de Programacion",
+  "resumen": "Maneras de como implementar en el proyecto las notificaciones de las acciones que ocurren en el mismo.",
+  "palabrasClave": [
+    "Notificaciones",
+    "Dev",
+    "NodeJS."
+  ],
+  "tipoPublicacion": "Informe",
+  "estado": "Borrador",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/publications%2Fdc9468f6-5ab5-4d08-97cd-0436054d42a4-notifications2.jpg?alt=media",
+  "anexos": [
+    {
+      "nombre": "TD_07231_14.pdf",
+      "url": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/attachments%2F77d9d8f3-7694-4710-a6aa-77a5f9192048-TD_07231_14.pdf?alt=media",
+      "tipo": "application/pdf",
+      "_id": {
+        "$oid": "671ebf4e0d80574a489f7ec3"
+      }
+    }
+  ],
+  "idioma": "Español",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-27T22:31:42.192Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T01:37:53.522Z"
+  },
+  "__v": 1
+}]

@@ -1,0 +1,23 @@
+.editar-investigador {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.editar-investigador h2 {
+  color: #218838;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.editar-investigador .form-group {
+  margin-bottom: 15px;
+}
+
+.editar-investigador label {
+  font-weight: bold;
+}
+
+.editar-investigador .btn {
+  margin-right: 10px;
+}

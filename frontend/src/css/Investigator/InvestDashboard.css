@@ -1,0 +1,11 @@
+.invest-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.dashboard-content {
+  flex: 1;
+  overflow-y: auto;
+}

@@ -1,0 +1,17 @@
+.titulo-solicitud {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 0.8em;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,62 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #006747 !important;
+  color: #fff;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #006747;
+  border-color: #006747;
+}
+
+.btn-primary:hover {
+  background-color: #004d35;
+  border-color: #004d35;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.no-projects-message h4 {
+  color: #006747;
+  font-weight: bold;
+}
+
+.no-projects-message p {
+  color: #555;
+}

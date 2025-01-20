@@ -1,0 +1,674 @@
+[{
+  "_id": {
+    "$oid": "66d9f71976c4141cb4812abe"
+  },
+  "nombre": "Proyecto SISINVESTIGA",
+  "descripcion": "Sistema para la gestión integral de investigaciones en UCSD.",
+  "objetivos": "Desarrollar un sistema eficiente de gestión de investigaciones.",
+  "presupuesto": 10000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "fechaFin": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d7d4bca6f6b3707d261b33"
+    }
+  ],
+  "recursos": [
+    "Servidor de base de datos",
+    "Herramientas de desarrollo"
+  ],
+  "hitos": [
+    {
+      "nombre": "Análisis de requerimientos",
+      "fecha": {
+        "$date": "2024-09-15T00:00:00.000Z"
+      },
+      "entregable": "Documento de requerimientos"
+    },
+    {
+      "nombre": "Desarrollo de prototipo",
+      "fecha": {
+        "$date": "2024-10-15T00:00:00.000Z"
+      },
+      "entregable": "Prototipo funcional"
+    }
+  ],
+  "estado": "En Proceso",
+  "createdAt": {
+    "$date": "2024-09-05T18:23:21.340Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T02:38:37.630Z"
+  },
+  "__v": 1,
+  "isDeleted": false,
+  "isEvaluated": true
+},
+{
+  "_id": {
+    "$oid": "66db19d7ac4e6e65b64c921d"
+  },
+  "nombre": "Investigación sobre Software",
+  "descripcion": "Un estudio sobre metodologías ágiles en desarrollo de software.",
+  "objetivos": "Implementar metodologías ágiles en proyectos de gran escala.",
+  "presupuesto": 200000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-09-05T00:00:00.000Z"
+    },
+    "fechaFin": {
+      "$date": "2025-01-15T00:00:00.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Software de gestión de proyectos"
+  ],
+  "hitos": [
+    {
+      "nombre": "Capacitación del equipo",
+      "fecha": {
+        "$date": "2024-09-15T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "670c4400711133584a5b9c82"
+      }
+    },
+    {
+      "nombre": "Ultima Entrega",
+      "fecha": {
+        "$date": "2024-10-12T00:04:37.124Z"
+      },
+      "_id": {
+        "$oid": "670c4400711133584a5b9c83"
+      }
+    }
+  ],
+  "estado": "En Proceso",
+  "createdAt": {
+    "$date": "2024-09-06T15:03:51.604Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-17T18:21:34.285Z"
+  },
+  "__v": 8,
+  "isDeleted": false,
+  "isEvaluated": true,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F03f54e2c-61f9-422a-81b9-8b376de4bd55-what-is-software.png?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66fcdbefa8e8a1295a15317a"
+  },
+  "nombre": "IA En Tiempos antiguos",
+  "descripcion": "Descripción del nuevo proyecto",
+  "objetivos": "Objetivos del proyecto",
+  "presupuesto": 10000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "fechaFin": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66e8c2ca50682593adb5d0bb"
+    }
+  ],
+  "recursos": [
+    "Recurso 1",
+    "Recurso 2"
+  ],
+  "hitos": [
+    {
+      "nombre": "Hito 1",
+      "fecha": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "66fcdbefa8e8a1295a15317b"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-02T05:36:47.778Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T23:55:09.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fcdc26a8e8a1295a153194"
+  },
+  "nombre": "IA En Tiempos Modernos",
+  "descripcion": "Descripción del nuevo proyecto",
+  "objetivos": "Objetivos del proyecto",
+  "presupuesto": 10000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "fechaFin": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Recurso 1",
+    "Recurso 2"
+  ],
+  "hitos": [
+    {
+      "nombre": "Hito 1",
+      "fecha": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "670c443d711133584a5b9ce9"
+      }
+    },
+    {
+      "nombre": "Hito 2",
+      "fecha": {
+        "$date": "2024-10-04T00:04:17.000Z"
+      },
+      "_id": {
+        "$oid": "670c443d711133584a5b9cea"
+      }
+    }
+  ],
+  "estado": "Finalizado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-02T05:37:42.986Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T23:54:43.218Z"
+  },
+  "__v": 4,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F86f4001b-fc5a-44b7-a76b-1fbfb0c093cb-IA.jpg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66fddabd599b3cbe57f3bb05"
+  },
+  "nombre": "Tren Metropolitano",
+  "descripcion": "Proyecto de Estacion de trenes en la Ecologica.",
+  "objetivos": "Mejorar el transporte y reducir los tapones.",
+  "presupuesto": 150000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-02T23:42:31.678Z"
+    },
+    "fechaFin": {
+      "$date": "2026-05-01T23:42:31.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "ISO 97001"
+  ],
+  "hitos": [
+    {
+      "nombre": "Entrega de Trenes",
+      "fecha": {
+        "$date": "2024-10-02T23:42:31.678Z"
+      },
+      "_id": {
+        "$oid": "67203a414e159705f66153ea"
+      }
+    },
+    {
+      "nombre": "Finalizar Mantenimiento",
+      "fecha": {
+        "$date": "2025-03-06T23:43:32.000Z"
+      },
+      "_id": {
+        "$oid": "67203a414e159705f66153eb"
+      }
+    },
+    {
+      "nombre": "Instalar Trenes",
+      "fecha": {
+        "$date": "2024-10-03T00:10:58.166Z"
+      },
+      "_id": {
+        "$oid": "67203a414e159705f66153ec"
+      }
+    }
+  ],
+  "estado": "En Proceso",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-02T23:43:57.245Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-08T01:37:20.489Z"
+  },
+  "__v": 7,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F2759810b-20ac-4107-a851-0af938b43bf0-tren.jpeg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "66ff2b42fe36d570139eeffd"
+  },
+  "nombre": "Semaforos con Inteligencia Artificial",
+  "descripcion": "Implementar semaforos con Inteligencia Artificial.",
+  "objetivos": "Reducir los tapones.",
+  "presupuesto": 1200000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-03T23:39:01.000Z"
+    },
+    "fechaFin": {
+      "$date": "2025-10-03T23:39:01.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Camaras"
+  ],
+  "hitos": [
+    {
+      "nombre": "Comprar Semaforos",
+      "fecha": {
+        "$date": "2024-10-09T23:39:01.000Z"
+      },
+      "_id": {
+        "$oid": "670c449a8b1217e8642227f8"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-03T23:39:46.455Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-28T02:38:04.603Z"
+  },
+  "__v": 1,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F2075d7f7-2b76-43e9-a3ed-ccc717238042-semIA.webp?alt=media"
+},
+{
+  "_id": {
+    "$oid": "67018428a540d912a0fd537e"
+  },
+  "nombre": "Probando Modularidad",
+  "descripcion": "Descripción del nuevo proyecto",
+  "objetivos": "Objetivos del proyecto",
+  "presupuesto": 10000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "fechaFin": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d7d4bca6f6b3707d261b33"
+    }
+  ],
+  "recursos": [
+    "Recurso 1",
+    "Recurso 2"
+  ],
+  "hitos": [
+    {
+      "nombre": "Hito 1",
+      "fecha": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "67018428a540d912a0fd537f"
+      }
+    }
+  ],
+  "estado": "En Proceso",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-05T18:23:36.236Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-05T20:19:25.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701ba84e179d82e4ca5f8ed"
+  },
+  "nombre": "Semaforos con Machine Learning.",
+  "descripcion": "Comprar Semaforos",
+  "objetivos": "Traer Semaforos",
+  "presupuesto": 20000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-05T22:14:48.715Z"
+    },
+    "fechaFin": {
+      "$date": "2024-10-05T22:14:48.715Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Camaras"
+  ],
+  "hitos": [
+    {
+      "nombre": "Comprar Semaforos",
+      "fecha": {
+        "$date": "2024-10-05T22:14:48.715Z"
+      },
+      "_id": {
+        "$oid": "673a4231adb375796ac012ca"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-05T22:15:32.932Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-17T19:21:21.690Z"
+  },
+  "__v": 6,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F5c50cac0-f653-4032-9484-13d1e0ccaa55-machinelearning.png?alt=media"
+},
+{
+  "_id": {
+    "$oid": "6709bbdf1c400205daed34be"
+  },
+  "nombre": "Como Manejar la Ira",
+  "descripcion": "Proyecto acerca de como manejar los momentos en donde tenemos mucha ira hacia alguien.",
+  "objetivos": "Reducir la ira.\r\nMejorar la Inteligencia Emocional.",
+  "presupuesto": 250000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-11T23:56:44.738Z"
+    },
+    "fechaFin": {
+      "$date": "2024-10-31T23:56:44.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Como mejorar Las Emociones. Aidra Belton. Libro 2005.",
+    "Como calmar tu ira. Aiden Blonde. Libro 2021."
+  ],
+  "hitos": [
+    {
+      "nombre": "Iniciar Proyecto.",
+      "fecha": {
+        "$date": "2024-10-11T23:56:44.738Z"
+      },
+      "_id": {
+        "$oid": "670c44ea8b1217e8642228b4"
+      }
+    },
+    {
+      "nombre": "Reunir a los Psicologos.",
+      "fecha": {
+        "$date": "2024-10-15T23:58:14.000Z"
+      },
+      "_id": {
+        "$oid": "670c44ea8b1217e8642228b5"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-11T23:59:27.158Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-10T14:17:54.392Z"
+  },
+  "__v": 1,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2Fe5a0e890-5aae-4970-846d-625b55d37b00-IRA.jpg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "670b18955ec380d47c96359b"
+  },
+  "nombre": "Presupuesto Nacional",
+  "descripcion": "Estudio sobre el presupuesto del gobierno de la Republica Dominicana.",
+  "objetivos": "Verificar cuanto se roban los del partido.",
+  "presupuesto": 1500000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-13T00:46:18.747Z"
+    },
+    "fechaFin": {
+      "$date": "2025-02-13T00:46:18.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Periodistas",
+    "Noticias"
+  ],
+  "hitos": [
+    {
+      "nombre": "Inicio del Proyecto",
+      "fecha": {
+        "$date": "2024-10-13T00:46:18.747Z"
+      },
+      "_id": {
+        "$oid": "670c43b6711133584a5b9bc9"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-13T00:47:17.915Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-28T01:52:02.823Z"
+  },
+  "__v": 1,
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F1238dbb7-1b0b-4a76-a70c-615b82c64406-budget.jpeg?alt=media"
+},
+{
+  "_id": {
+    "$oid": "670c41ed711133584a5b9b5d"
+  },
+  "nombre": "Niños Felices.",
+  "descripcion": "Proyecto que hara a los niños felices, regalandole juguetes, comida y un dia de diversion.",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2Fed2a505a-050e-418d-9c12-8a040aa2d6bb-OIP.jpeg?alt=media",
+  "objetivos": "Hacer sonreir a los niños.",
+  "presupuesto": 500000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-13T21:41:06.643Z"
+    },
+    "fechaFin": {
+      "$date": "2024-11-30T21:41:06.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Juguetes",
+    "Comida"
+  ],
+  "hitos": [
+    {
+      "nombre": "Inicio de Proyecto.",
+      "fecha": {
+        "$date": "2024-10-13T21:41:06.643Z"
+      },
+      "_id": {
+        "$oid": "670c41ed711133584a5b9b5e"
+      }
+    },
+    {
+      "nombre": "Bucar barrio.",
+      "fecha": {
+        "$date": "2024-10-20T21:42:27.000Z"
+      },
+      "_id": {
+        "$oid": "670c41ed711133584a5b9b5f"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-13T21:55:57.554Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T14:52:05.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671daf1885815d1382c65e01"
+  },
+  "nombre": "Las Frutas para la Salud.",
+  "descripcion": "En este proyecto mostraremos lo recomendable que es el consumo de las frutas en nuestros alimentos el dia a dia.",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2Fc8fc93f5-f665-40c9-9d13-611ef57a5dfe-fruits.webp?alt=media",
+  "objetivos": "Educar a las personas sobre el consumos de las frutas.",
+  "presupuesto": 50000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-27T03:09:41.307Z"
+    },
+    "fechaFin": {
+      "$date": "2025-01-01T03:09:41.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Frutas"
+  ],
+  "hitos": [
+    {
+      "nombre": "Inicio de Proyecto",
+      "fecha": {
+        "$date": "2024-10-27T03:09:41.307Z"
+      },
+      "_id": {
+        "$oid": "673a4063adb375796ac01038"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-27T03:10:16.697Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-17T21:05:12.211Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "671eb52f46d0b71110f71928"
+  },
+  "nombre": "Notificaciones en NodeJS",
+  "descripcion": "Abarcamos como podemos crear notificaciones en nuestro proyecto con la arquitectura MERN.",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/sisinvestiga.appspot.com/o/projects%2F4e779646-ae1c-4bfc-bc9d-69d23162c121-notifications.jpg?alt=media",
+  "objetivos": "Aprender a incorporar notificaciones en los proyectos.",
+  "presupuesto": 300000,
+  "cronograma": {
+    "fechaInicio": {
+      "$date": "2024-10-27T21:46:48.728Z"
+    },
+    "fechaFin": {
+      "$date": "2024-10-28T21:46:48.000Z"
+    }
+  },
+  "investigadores": [
+    {
+      "$oid": "66d9a3d28811e44aea8b1dd6"
+    }
+  ],
+  "recursos": [
+    "Google"
+  ],
+  "hitos": [
+    {
+      "nombre": "Inicio de Proyecto.",
+      "fecha": {
+        "$date": "2024-10-27T21:46:48.728Z"
+      },
+      "_id": {
+        "$oid": "671ebcae0c9cf65b20e072fc"
+      }
+    }
+  ],
+  "estado": "Planeado",
+  "isEvaluated": true,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2024-10-27T21:48:31.903Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-04T23:29:12.497Z"
+  },
+  "__v": 2
+}]

@@ -1,0 +1,85 @@
+.adm-edit-project .container {
+  max-width: 800px;
+}
+
+.adm-edit-project .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.adm-edit-project .progress {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.adm-edit-project .progress-bar {
+  background-color: #006747;
+}
+
+.adm-edit-project .form-control:focus,
+.adm-edit-project .form-select:focus {
+  border-color: #006747;
+  box-shadow: 0 0 0 0.2rem rgba(0, 103, 71, 0.25);
+}
+
+.adm-edit-project .btn-primary {
+  background-color: #006747;
+  border-color: #006747;
+}
+
+.adm-edit-project .btn-primary:hover {
+  background-color: #004d34;
+  border-color: #004d34;
+}
+
+.adm-edit-project .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.adm-edit-project .btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.adm-edit-project .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.adm-edit-project .btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.adm-edit-project .image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.adm-edit-project .image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.adm-edit-project .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.adm-edit-project .react-datepicker__input-container input {
+  width: 100%;
+}
+
+.adm-edit-profile {
+  width: 40px;
+  height: 40px; 
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .adm-edit-project .container {
+    padding: 0 15px;
+  }
+}

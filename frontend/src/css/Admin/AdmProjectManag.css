@@ -1,0 +1,131 @@
+.project-management-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.project-management-title {
+  color: #006747;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.project-filter .form-control,
+.project-filter .form-select {
+  border-color: #006747;
+}
+
+.project-filter .input-group-text {
+  background-color: #006747;
+  color: white;
+  border-color: #006747;
+}
+
+.project-grid {
+  margin-top: 2rem;
+}
+
+.project-card {
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card .card-title {
+  color: #006747;
+  font-weight: bold;
+}
+
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.project-card .card-footer {
+  background-color: white;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem;
+}
+
+.project-card .btn {
+  transition: all 0.3s ease;
+}
+
+.project-card .btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Status badges */
+.adm-projects-card__status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.adm-projects-card__status--planned {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.adm-projects-card__status--in-progress {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.adm-projects-card__status--completed {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.adm-projects-card__status--canceled {
+  background-color: #e8f5e9;
+  color: #d4481e;
+}
+
+.deleted-project {
+  opacity: 0.7;
+}
+
+.modal-header {
+  background-color: #006747;
+  color: white;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.page-item.active .page-link {
+  background-color: #006747;
+  border-color: #006747;
+}
+
+.page-link {
+  color: #006747;
+}
+
+@media (max-width: 768px) {
+  .project-filter .col-md-6,
+  .project-filter .col-md-4 {
+    margin-bottom: 1rem;
+  }
+}

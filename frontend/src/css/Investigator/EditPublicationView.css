@@ -1,0 +1,237 @@
+.edit-publication-view-container {
+  padding: 20px;
+  background-color: #f4f6f9;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.edit-wizard-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.edit-h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-step-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.edit-step {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #e0e0e0;
+  color: #666;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.edit-step.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-form-step {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.edit-input,
+.edit-textarea,
+.edit-select,
+.edit-datepicker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.edit-file-input {
+  display: none;
+}
+
+.edit-file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-file-label:hover {
+  background-color: #45a049;
+}
+
+.edit-image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.edit-image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-anexos-list {
+  margin-top: 10px;
+}
+
+.edit-anexo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.edit-remove-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+.edit-nav-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.edit-form-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.edit-prev-btn {
+  background-color: #607d8b;
+  color: white;
+}
+
+.edit-prev-btn:hover {
+  background-color: #546e7a;
+}
+
+.edit-next-btn,
+.edit-save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-next-btn:hover,
+.edit-save-btn:hover {
+  background-color: #45a049;
+}
+
+.edit-readonly {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.edit-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 12 12'%3E%3Cpath d='M10.293 3.293a1 1 0 011.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L6 7.586l4.293-4.293z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+.edit-datepicker {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .edit-wizard-container {
+    padding: 20px;
+  }
+
+  .edit-step-indicator {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edit-step {
+    width: 100%;
+  }
+
+  .edit-form-navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edit-nav-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-wizard-container {
+    padding: 15px;
+  }
+
+  .edit-h2 {
+    font-size: 20px;
+  }
+
+  .edit-step {
+    font-size: 12px;
+  }
+
+  .edit-input,
+  .edit-textarea,
+  .edit-select,
+  .edit-datepicker {
+    font-size: 14px;
+  }
+}

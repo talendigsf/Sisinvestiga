@@ -1,0 +1,40 @@
+.titulo-roles {
+  color: #3e3e3f;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.badge {
+  font-size: 0.9em;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.table-danger {
+  background-color: #f8d7da;
+}
+
+.modal-title {
+  color: #353536;
+}
+
+@media (max-width: 768px) {
+  .titulo-roles {
+    font-size: 1.5rem;
+  }
+
+  .btn-sm {
+    font-size: 0.8rem;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+}

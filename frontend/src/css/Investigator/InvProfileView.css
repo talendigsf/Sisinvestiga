@@ -1,0 +1,97 @@
+.p-bg-primary {
+  background-color: #006400 !important;
+}
+
+.btn-success {
+  background-color: #006400;
+  border-color: #006400;
+}
+
+.btn-success:hover {
+  background-color: #004d00;
+  border-color: #004d00;
+}
+
+.nav-tabs .nav-link.active {
+  color: #006400;
+  border-color: #006400;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.input-group-text {
+  background-color: #f3f4f6;
+  border-color: #ccc;
+}
+
+.form-control:focus {
+  border-color: #006400;
+  box-shadow: 0 0 0 0.2rem rgba(0, 100, 0, 0.25);
+}
+
+.account-info-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.account-info-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.account-info-icon {
+  font-size: 1.5rem;
+  color: #006400;
+  margin-right: 1rem;
+}
+
+.account-info-content h6 {
+  margin-bottom: 0.25rem;
+  color: #495057;
+}
+
+.account-info-content p {
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .card-header .d-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-header .ms-3 {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+
+  .account-info-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .account-info-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

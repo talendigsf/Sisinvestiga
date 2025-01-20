@@ -1,0 +1,38 @@
+src/
+│
+├── componentes/                 # Componentes divididos por funcionalidades
+│   ├── Common/                 # Componentes reutilizables
+│   ├── GestionProyectos/        # Componentes para gestión de proyectos
+│   ├── GestionInvestigadores/   # Componentes para gestión de investigadores
+│   ├── Publicaciones/           # Componentes para gestión de publicaciones
+│   ├── InformesEvaluaciones/    # Componentes para informes y evaluaciones
+│   └── Seguridad/               # Componentes para la seguridad y control de acceso
+│
+├── contexto/                    # Contextos para manejo de estado global
+│   ├── ProyectoContext.js       
+│   ├── InvestigadorContext.js
+│   └── PublicacionContext.js
+│
+├── servicios/                   # Servicios API para interactuar con el backend
+│   ├── ProyectoService.js
+│   └── InvestigadorService.js
+│
+├── views/                       # Vistas de la aplicación que se enlazan a través de las rutas
+│   ├── Inicio.js                # Página de inicio (home)
+│   ├── Proyectos/               # Vistas relacionadas a los proyectos
+│   │   ├── ListaProyectos.js    # Lista de proyectos (vista principal de proyectos)
+│   │   ├── DetallesProyecto.js  # Vista de detalles de un proyecto
+│   │   ├── AgregarProyecto.js   # Formulario para agregar proyectos
+│   └── Investigadores/          # Vistas relacionadas a los investigadores
+│       ├── ListaInvestigadores.js # Vista de lista de investigadores
+│       ├── PerfilInvestigador.js  # Perfil individual de un investigador
+│   └── Publicaciones/           # Vistas relacionadas a las publicaciones
+│       ├── ListaPublicaciones.js  # Lista de publicaciones
+│       ├── AgregarPublicacion.js  # Formulario para agregar publicaciones
+│   └── Seguridad/               # Vistas relacionadas a la autenticación y seguridad
+│       ├── Login.js             # Vista para el login de usuarios
+│       └── GestionPermisos.js   # Gestión de permisos para usuarios
+│
+├── seguridad/                   # Módulos para autenticación y control de acceso
+│   ├── Autenticacion.js
+│   └── RutasPrivadas.js

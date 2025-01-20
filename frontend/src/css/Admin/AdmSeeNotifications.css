@@ -1,0 +1,82 @@
+.notification-management {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.notification-management h1 {
+  color: #006747;
+  font-weight: bold;
+}
+
+.notification-table {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.notification-table thead {
+  background-color: #006747;
+  color: #ffffff;
+}
+
+.notification-table th {
+  cursor: pointer;
+}
+
+.notification-table th:hover {
+  background-color: #005239;
+}
+
+.notification-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.3em 0.6em;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #006747;
+  border-color: #006747;
+}
+
+.pagination .page-link {
+  color: #006747;
+}
+
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-warning {
+  border-width: 2px;
+}
+
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-warning:hover {
+  color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #006747;
+  box-shadow: 0 0 0 0.2rem rgba(0, 103, 71, 0.25);
+}
+
+@media (max-width: 768px) {
+  .notification-management {
+    padding: 10px;
+  }
+
+  .notification-table {
+    font-size: 0.9rem;
+  }
+
+  .btn-sm {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+  }
+}

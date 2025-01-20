@@ -1,0 +1,26 @@
+.star-icon {
+  color: #ffc107;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.no-data-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
+  padding: 20px;
+}
+
+.badge {
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
